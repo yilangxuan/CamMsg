@@ -1,0 +1,242 @@
+/*
+*CSS STYLE PAGE 
+*AUTHOR : Eric Purvis, Zhenfang Yan, Yilang Xuan
+*DATE: 6/21/16
+*/
+
+.webname{
+text-align:center;
+padding:20px;
+}
+.NaviBar{
+width:100%;
+background-color: #333;
+}
+.NaviBar ul {
+width:84%;
+margin:0 8%; 
+list-style:none;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+.NaviBar li {
+display: inline-block;
+
+}
+.NaviBar li a {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+.NaviBar li a:hover {
+background-color: #111;
+}
+.selfimage{
+width:100%;
+position:relative;
+}
+.selfimage img{
+display:block;
+margin:auto;
+padding:20px 0;
+}
+.photocredit{
+text-align:center;
+}
+body  {
+background-color: WhiteSmoke;
+}
+
+h1 {
+text-align: center;
+font-family: Arial;
+font-size: 52px;
+font-style: normal;
+font-variant: small-caps;
+font-weight: 100;
+line-height: 52px;
+padding-bottom: 10px;  
+}
+
+h2 {
+text-align: center;
+font-family: Arial;
+font-size: 40px;
+font-style: normal;
+font-weight: 80;
+line-height: 40px;
+padding-bottom: 5px;  
+}
+
+.informationalparagraph{
+background-color: white;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: 80;
+line-height: 30px;
+border:6px double grey;
+padding: 1em
+}
+
+.bottomlinks{
+text-align: center;	
+font-family: Arial;
+font-size: 16px;
+font-style: normal;
+font-variant: normal;
+font-weight: 80;
+line-height: 16px;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th,td{
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even){
+background-color: #f2f2f2;
+}
+
+th{
+background-color: #b71c1c;
+color: white;
+}
+
+.container {
+    position:relative;
+    margin: 0 auto;
+  	padding: 0;
+  	width:48%;
+  	margin-top:0%;
+  	margin-bottom:20%;
+}
+.container img {
+   position:absolute;
+    width:600px;
+    height:400px;
+    margin:0 auto;
+    display: block;
+}
+figure { 
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+}
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+
+  opacity: 0;
+  bottom: 0; 
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  left: 0;
+}
+@-webkit-keyframes xfade {
+    2% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+@keyframes xfade {
+    2% {
+        opacity: 1;
+    }
+    12.5% {
+        opacity:1;
+    }
+    16.5% {
+        opacity:0;
+    }
+    96% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.container img:nth-child(11) {
+    /*-webkit-animation: xfade 55s 1s infinite;*/
+    animation: xfade 30s 1s infinite;  
+  }
+.container img:nth-child(10) {
+    /*-webkit-animation: xfade 55s 2s infinite;*/
+    animation: xfade 30s 2s infinite;
+}
+.container img:nth-child(9) {
+    /*-webkit-animation: xfade 55s 4s infinite;*/
+    animation: xfade 30s 4s infinite;
+}
+.container img:nth-child(8) {
+    /*-webkit-animation: xfade 55s 6s infinite;*/
+    animation: xfade 30s 6s infinite;
+}
+.container img:nth-child(7) {
+    /*-webkit-animation: xfade 55s 8s infinite;*/
+    animation: xfade 30s 8s infinite;
+}
+.container img:nth-child(6) {
+    /*-webkit-animation: xfade 55s 10s infinite;*/
+    animation: xfade 30s 10s infinite;
+}
+.container img:nth-child(5) {
+    /*-webkit-animation: xfade 55s 12s infinite;*/
+    animation: xfade 30s 12s infinite;
+}
+.container img:nth-child(4) {
+    /*-webkit-animation: xfade 55s 14s infinite;*/
+    animation: xfade 55s 14s infinite;
+}
+.container img:nth-child(3) {
+    /*-webkit-animation: xfade 55s 16s infinite;*/
+    animation: xfade 55s 16s infinite;
+}
+.container img:nth-child(2) {
+    /*-webkit-animation: xfade 55s 20s infinite;*/
+    animation: xfade 55s 20s infinite;
+}
+.container img:nth-child(1) {
+    /*-webkit-animation: xfade 55s 22s infinite;*/
+    animation: xfade 55s 22s infinite;
+    "dsadsadadads"
+}
+
+.InfoList{
+text-align:center;
+font-family: Arial;
+font-size: 20px;
+font-style: normal;
+font-variant: normal;
+font-weight: 80;
+line-height: 30px;
+list-style-type: none;
+}
